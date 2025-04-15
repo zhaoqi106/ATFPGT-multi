@@ -10,4 +10,4 @@ This is a Pytorch implementation of the paper:"Multi-task aquatic toxicity predi
 
 To train a model from scratch, run:
 
-`python train.py  --num_folds 5 --device cuda:0 --epoch 50`
+`python mtl_main.py  --num_folds 5 --device cuda:0 --epoch 50`
